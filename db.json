@@ -1,40 +1,35 @@
 {
-  "SurveyEntry": {
-    "Blocks": {
-      "Block": {
-        "Description": "Multiple Choice Block",
-        "Type": "Standard",
-        "Questions": {
-          "Question": {
-            "QuestionText": "Your question text here",
-            "QuestionType": "MC",
-            "Selector": "SAVR",
-            "SubSelector": "TX",
-            "Choices": {
-              "Choice": [
-                {
-                  "Description": "Option 1",
-                  "Value": "1"
-                },
-                {
-                  "Description": "Option 2",
-                  "Value": "2"
-                },
-                {
-                  "Description": "Option 3",
-                  "Value": "3"
-                }
-              ]
-            },
-            "Configuration": {
-              "QuestionDescriptionOption": "UseText"
-            }
+  "Blocks": {
+    "Block": {
+      "Description": "Multiple Choice Block",
+      "Type": "Standard",
+      "Questions": {
+        "Question": {
+          "QuestionText": "Your question text here",
+          "QuestionType": "MC",
+          "Selector": "SAVR", 
+          "SubSelector": "TX",
+          "Choices": {
+            "Choice": [
+              {
+                "Description": "Option 1",
+                "Value": "1"
+              },
+              {
+                "Description": "Option 2", 
+                "Value": "2"
+              },
+              {
+                "Description": "Option 3",
+                "Value": "3"
+              }
+            ]
+          },
+          "Configuration": {
+            "QuestionDescriptionOption": "UseText"
           }
         }
       }
     }
-  },
-  "profile": {
-    "name": "abhijit"
   }
 }
