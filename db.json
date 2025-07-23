@@ -1,14 +1,40 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "SurveyEntry": {
+    "Blocks": {
+      "Block": {
+        "Description": "Multiple Choice Block",
+        "Type": "Standard",
+        "Questions": {
+          "Question": {
+            "QuestionText": "Your question text here",
+            "QuestionType": "MC",
+            "Selector": "SAVR",
+            "SubSelector": "TX",
+            "Choices": {
+              "Choice": [
+                {
+                  "Description": "Option 1",
+                  "Value": "1"
+                },
+                {
+                  "Description": "Option 2",
+                  "Value": "2"
+                },
+                {
+                  "Description": "Option 3",
+                  "Value": "3"
+                }
+              ]
+            },
+            "Configuration": {
+              "QuestionDescriptionOption": "UseText"
+            }
+          }
+        }
+      }
+    }
+  },
   "profile": {
-    "name": "typicode"
+    "name": "abhijit"
   }
 }
